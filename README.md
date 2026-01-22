@@ -3,7 +3,9 @@
 A unified environment for writing GLSL and p5.js directly in ComfyUI. This node provides a full-featured code editor (Monaco) with syntax highlighting, auto-complete, and real-time previewing.
 Key features include an integrated shader library, error tracking with line mapping, local AI code assistance (via Ollama), and automatic UI generation for shader uniforms.
 
-
+| | |
+| :---: | :---: |
+| <video src="https://github.com/user-attachments/assets/2afc7162-a060-49bf-98c7-34b245d16760" width="100%" autoplay loop muted playsinline></video> | <video src="https://github.com/user-attachments/assets/f90da2bb-c557-4725-9853-b9dfa4b003f6" width="100%" autoplay loop muted playsinline></video> |
 
 ## Installation
 
