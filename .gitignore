@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Project Specific
+p5_cache/
+
+# Temporary Files
+*.tmp
+*.tmp.*
+*.bak
+
+# AI/Agent Configs
+.claude/
+.agent/
